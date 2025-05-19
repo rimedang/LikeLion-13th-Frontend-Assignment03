@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>회원가입 페이지</title>
+  </head>
+  <body>
+    <div id="container">
+      <h3>회원가입</h3>
+      <div>
+        <input id="textinput" type="text" placeholder="이름" required />
+        <p class="error-msg"></p>
+      </div>
+      <div>
+        <input id="emailinput" type="email" placeholder="이메일" required />
+        <p class="error-msg"></p>
+      </div>
+
+      <div class="password">
+        <input id="passinput" type="password" placeholder="비밀번호" required />
+        <div id="look">보기</div>
+        <p class="error-msg"></p>
+      </div>
+
+      <div class="password">
+        <input
+          id="passcheckinput"
+          type="password"
+          placeholder="비밀번호 확인"
+          required
+        />
+        <div id="look">보기</div>
+        <p class="error-msg"></p>
+      </div>
+
+      <div class="button">
+        <button id="signup">회원가입</button>
+        <button id="reset">초기화</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
